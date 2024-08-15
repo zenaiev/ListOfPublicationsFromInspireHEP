@@ -25,7 +25,9 @@ BASEURL = args.baseurl
 
 
 def build_query(**kwargs):
-    query = 'literature?'
+    #query = 'literature?'
+    #query = 'literature?&sort=mostrecent&'
+    query = 'literature?&sort=mostrecent&doc_type=published&'
     query += '&'.join([k + "=" + str(v) for k, v in list(kwargs.items())])
     return query
 
