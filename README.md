@@ -26,7 +26,11 @@ Finally to create the pdf:
     ./create_latex.py <bibtexfilename_new.bib>
 
 SZ 15.08.2024
+
 ./create_bibtex.py --query find%20author%20o%20zenaiev
+
 export EDITOR=nano
+
 ./check_biblio.py bibtex_2024-08-15.bib
+
 ./create_latex.py bibtex_2024-08-15_new.bib
